@@ -10,7 +10,7 @@ docker run --rm -v $(pwd):/node jonloureiro/problems-and-contests <folder-name>
 # example
 docker run --rm -v $(pwd):/node jonloureiro/problems-and-contests 1001
 
-# building your container
+# building your image
 docker build -t <image-name> .
 ```
 
